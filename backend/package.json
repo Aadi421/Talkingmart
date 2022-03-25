@@ -1,0 +1,31 @@
+{
+  "name": "talking-mart",
+  "version": "1.0.0",
+  "description": "talking mart assessment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r esm index.js",
+    "start": "node -r esm index.js"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+ 
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "google-auth-library": "^7.1.1",
+    "google-oauth-jwt": "^0.2.0",
+    "mongoose": "^5.12.12"
+   
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

@@ -1,0 +1,74 @@
+/* common CSS */
+button:hover {
+  opacity: 0.8;
+}
+body {
+  background-color: #fff;
+}
+.form{
+  width: 500px;
+}
+
+.container{
+  padding:20px
+}
+
+
+
+
+/* navbar css */
+.navbar-brand::first-letter {
+  content: "";
+  /*update*/
+  font-size: 2.8rem;
+  color: #f0487c;
+}
+.navbar-brand::after {
+  /*update*/
+  content: "T";
+  font-size: 2.5rem;
+  color: #edbb02;
+}
+#login-dp {
+  min-width: 250px;
+  padding: 14px 14px 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.social-buttons {
+  margin: 12px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.social-buttons button {
+  width: 49%;
+}
+
+.btn-fb {
+  color: #fff;
+  background-color: #3b5998;
+}
+.btn-fb:hover {
+  color: #fff;
+  background-color: #496ebc;
+}
+.btn-go {
+  color: #fff;
+  background-color: #55acee;
+}
+.btn-tw:hover {
+  color: #fff;
+  background-color: #59b5fa;
+}
+@media (max-width: 768px) {
+  #login-dp {
+    /* background-color: inherit; */
+    color: #fff;
+  }
+  #login-dp .bottom {
+    background-color: inherit;
+    border-top: 0 none;
+  }
+}
+
